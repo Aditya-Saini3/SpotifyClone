@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body{
+    background-color: rgb(32, 32, 32);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.brand{
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    
+}
+.brand img{
+    height: 2rem;
+    margin-left: 1.3rem;
+}
+
+#navbar{
+    font-family: 'Poppins', sans-serif;
+    background-color: black;
+    height: 3rem;
+}
+
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    height: 3rem;
+}
+
+#navbar ul li{
+    list-style-type: none;
+}
+
+#navbar ul li a{
+    text-decoration: none;
+    margin: 2.3rem;
+    font-size: 1.3rem;
+    color: white;
+}
+
+.container{
+    min-height: 70.5vh;
+    background-color: black;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    width: 70%;
+    margin: 2rem auto;
+    border-radius: 1rem;
+}
+
+.bottom{
+    position: sticky;
+    height: 5.1rem;
+    background-color: black;
+    color: white;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+}
+.icons{
+    margin-bottom: 0.45rem;
+}
+
+.icons i{
+    cursor: pointer;
+}
+#myProgressBar{
+    width: 77vw;
+    cursor: pointer;
+}
+.songItemContainer{
+    margin-top: 2.5rem;
+}
+.songList{
+    padding: 1rem;
+}
+.songName{
+    padding: 30px;
+}
+.songItem{
+    height: 2.5rem;
+    display: flex;
+    width: 70%;
+    background-color: white;
+    border-radius: 1rem;
+    color: black;
+    margin: 1rem 0;
+    justify-content: space-between;
+    align-items: center;
+}
+.songItem img{
+    width: 2rem;
+    border-radius: 50%;
+    border: 1px solid #d1cfcf;
+}
+
+.timeStamp{
+    display: flex;
+    height: 3rem;
+    align-items: center;
+    columns: 2;
+    gap: 1rem;
+}
+
+.timeStamp i{
+    cursor: pointer;
+}
+
+.songInfo{
+    position: absolute;
+    left: 5.2vw;
+    font-family: 'Poppins', sans-serif;
+}
+
+.songInfo img{
+    opacity: 0;
+    transition: opacity 0.3s ease-in;
+}
